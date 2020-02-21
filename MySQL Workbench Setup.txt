@@ -1,0 +1,9 @@
+USE twitter
+
+INSERT INTO twitter.users (first_name, last_name) VALUES ('Tomas', 'Sarmiento')
+
+SELECT * FROM users
+
+UPDATE twitter.users SET first_name = 'Pablo', last_name='Quincha' WHERE id=8
+
+DELETE FROM twitter.users WHERE id=7
